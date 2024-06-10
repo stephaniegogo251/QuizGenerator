@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="xmlLibs">
+    <CLASSES>
+      <root url="file://C:/xmlLibs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/xmlLibs" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.view.UserData">
+    <Button fx:id="goBtn" layoutX="400.0" layoutY="34.0" mnemonicParsing="false" onAction="#checkResult" style="-fx-cursor: hand;" text="GO">
+        <font>
+            <Font name="Comic Sans MS" size="14.0" />
+        </font>
+    </Button>
+    <TextField fx:id="Name" layoutX="213.0" layoutY="35.0" promptText="Please enter name" style="-fx-background-radius: 16; -fx-border-radius: 16;">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <Label fx:id="UserName" layoutX="307.0" layoutY="136.0" text="UserName">
+        <font>
+            <Font name="Comic Sans MS" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="213.0" layoutY="136.0" text="Name: ">
+        <font>
+            <Font name="Comic Sans MS" size="20.0" />
+        </font>
+    </Label>
+    <Label fx:id="UserStatus" layoutX="302.0" layoutY="184.0" text="UserStatus">
+        <font>
+            <Font name="Comic Sans MS" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="213.0" layoutY="184.0" text="Status: ">
+        <font>
+            <Font name="Comic Sans MS" size="20.0" />
+        </font>
+    </Label>
+    <Label fx:id="UserScore" layoutX="306.0" layoutY="236.0" text="UserScore">
+        <font>
+            <Font name="Comic Sans MS" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="213.0" layoutY="236.0" text="Score: ">
+        <font>
+            <Font name="Comic Sans MS" size="20.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="112.0" fitWidth="166.0" layoutX="6.0" layoutY="26.0" pickOnBounds="true">
+        <Image url="@pxl.png" />
+    </ImageView>
+    <Label layoutX="36.0" layoutY="52.0" text="Check Score" wrapText="true">
+        <font>
+            <Font name="Comic Sans MS" size="18.0" />
+        </font>
+    </Label>
+    <Button fx:id="exitButton" layoutX="497.0" layoutY="331.0" mnemonicParsing="false" onAction="#exitApp" style="-fx-background-radius: 16; -fx-border-radius: 16; -fx-cursor: hand;" text="EXIT">
+        <font>
+            <Font name="Comic Sans MS" size="14.0" />
+        </font>
+    </Button>
+</AnchorPane>
